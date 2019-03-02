@@ -1,0 +1,37 @@
+.tablaConteedor{
+    width: 70%;
+}
+
+#list{
+    list-style: circle inside none; 
+    
+}
+
+.login-box {
+        width: 40px;
+        height: 40px;
+       
+        color: #fff;
+        top: 6%;
+        left: 6%;
+        padding: 1px 1px;
+ }
+
+.contimg{
+    margin-top: 20%;
+    filter: opacity(0.9);
+    
+
+}
+
+.listasDeUsuarios{
+    
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        
+      }
+      
+.listasDeUsuarios tr:hover {background-color: rgb(70, 70, 70);}
+      
+    
+      
