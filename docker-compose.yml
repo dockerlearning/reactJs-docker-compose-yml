@@ -1,23 +1,10 @@
-version: '3.3'
+version: "3"
 
-services: 
-  web1:
-    image: docker_micro
-    container_name: web1
-    ports:
-      - "1000:8080"
+services:
   web2:
-    image: docker_micro
-    container_name: web2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webReactJs
     ports:
-      - "2000:8080"    
-  web3:
-    image: docker_micro
-    container_name: web3
-    ports:
-      - "3000:8080"
-  haproxy:
-    build: ./proxy
-    container_name: haproxy
-    ports:
-       - "8080:8080"
+      - 3000:3000
